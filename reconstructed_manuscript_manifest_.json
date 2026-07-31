@@ -1,0 +1,255 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001",
+  "label": {
+    "en": [
+      "Reconstructed Manuscript"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Test"
+      ]
+    }
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Created"
+        ]
+      },
+      "value": {
+        "en": [
+          "2026-07-31T15:07:56.017Z"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source Manifests"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://byabbe.se/codicum-static-iiif-playground/manifest.json"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/1_1",
+      "type": "Canvas",
+      "height": 1634,
+      "width": 1041,
+      "label": {
+        "en": [
+          "Image 1_1"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/1_1/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://byabbe.se/codicum-static-iiif-playground/annotation/1_1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://byabbe.se/codicum-static-iiif-playground/canvas/1_1",
+              "body": {
+                "id": "https://byabbe.se/codicum-static-iiif-playground/iiif/1_1/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1634,
+                "width": 1041,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://byabbe.se/codicum-static-iiif-playground/iiif/1_1",
+                    "@type": "ImageService2",
+                    "profile": "level0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/2_2",
+      "type": "Canvas",
+      "height": 1634,
+      "width": 1041,
+      "label": {
+        "en": [
+          "Image 2_2"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/2_2/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://byabbe.se/codicum-static-iiif-playground/annotation/2_2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://byabbe.se/codicum-static-iiif-playground/canvas/2_2",
+              "body": {
+                "id": "https://byabbe.se/codicum-static-iiif-playground/iiif/2_2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1634,
+                "width": 1041,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://byabbe.se/codicum-static-iiif-playground/iiif/2_2",
+                    "@type": "ImageService2",
+                    "profile": "level0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/e7c2d0de-c029-4748-bf93-cf12f0c5bae8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Empty"
+        ]
+      },
+      "width": 1128,
+      "height": 1634,
+      "service": {
+        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+        "profile": "http://iiif.io/api/annex/services/physdim",
+        "physicalScale": 0.010638297872340425,
+        "physicalUnits": "cm"
+      },
+      "items": []
+    },
+    {
+      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Image 3_3_a"
+        ]
+      },
+      "width": 1255,
+      "height": 1295,
+      "service": {
+        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+        "profile": "http://iiif.io/api/annex/services/physdim",
+        "physicalScale": 0.02390438247011952,
+        "physicalUnits": "cm"
+      },
+      "items": [
+        {
+          "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767/annotation/40048278-882d-4081-bd71-6e4469e8b33c",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://byabbe.se/codicum-static-iiif-playground/iiif/3_3_a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1295,
+                "width": 1255,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://byabbe.se/codicum-static-iiif-playground/iiif/3_3_a",
+                    "@type": "ImageService2",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767#xywh=-23,-232,723,747"
+            },
+            {
+              "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767/annotation/0d06fb42-0992-451a-bc8a-834ff1f43a2a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://byabbe.se/codicum-static-iiif-playground/iiif/3_3_d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1295,
+                "width": 1255,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://byabbe.se/codicum-static-iiif-playground/iiif/3_3_d",
+                    "@type": "ImageService2",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767#xywh=553,764,746,770"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/5_5",
+      "type": "Canvas",
+      "height": 1634,
+      "width": 1128,
+      "label": {
+        "en": [
+          "Image 5_5"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/5_5/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://byabbe.se/codicum-static-iiif-playground/annotation/5_5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://byabbe.se/codicum-static-iiif-playground/canvas/5_5",
+              "body": {
+                "id": "https://byabbe.se/codicum-static-iiif-playground/iiif/5_5/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1634,
+                "width": 1128,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://byabbe.se/codicum-static-iiif-playground/iiif/5_5",
+                    "@type": "ImageService2",
+                    "profile": "level0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
