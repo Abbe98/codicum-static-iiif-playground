@@ -66,33 +66,8 @@
         ]
       }
     },
-    {
-      "label": {
-        "sv": [
-          "Rättigheter för digital reproduktion"
-        ],
-        "en": [
-          "Rights"
-        ]
-      },
-      "value": {
-        "id": "http://creativecommons.org/publicdomain/mark/1.0/"
-      }
-    },
-    {
-      "label": {
-        "sv": [
-          "IIIF-manifest"
-        ],
-        "en": [
-          "IIIF Manifest"
-        ]
-      },
-      "value": {
-          "id": "https://lbiiif.riksarkivet.se/arkis!R1000943/manifest"
-      }
-    }
   ],
+  "rights": "http://creativecommons.org/licenses/by/4.0/",
   "provider": [
     {
       "id": "http://data.riksarkivet.se/agent/Riksarkivet",
