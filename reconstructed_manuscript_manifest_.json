@@ -20,7 +20,7 @@
     },
     "value": {
       "en": [
-        "Test"
+        ""
       ]
     }
   },
@@ -33,7 +33,7 @@
       },
       "value": {
         "en": [
-          "2026-07-31T15:07:56.017Z"
+          "2026-09-23T12:34:51.410Z"
         ]
       }
     },
@@ -130,11 +130,11 @@
       ]
     },
     {
-      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/e7c2d0de-c029-4748-bf93-cf12f0c5bae8",
+      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/408d94c8-f3f8-4223-8162-50766ddd54ba",
       "type": "Canvas",
       "label": {
         "en": [
-          "Empty"
+          "3-4"
         ]
       },
       "width": 1128,
@@ -148,7 +148,7 @@
       "items": []
     },
     {
-      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767",
+      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/096a94d2-f96c-4e9d-b436-d4674a07f9f7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -157,19 +157,13 @@
       },
       "width": 1255,
       "height": 1295,
-      "service": {
-        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
-        "profile": "http://iiif.io/api/annex/services/physdim",
-        "physicalScale": 0.02390438247011952,
-        "physicalUnits": "cm"
-      },
       "items": [
         {
-          "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767/page/1",
+          "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/096a94d2-f96c-4e9d-b436-d4674a07f9f7/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767/annotation/40048278-882d-4081-bd71-6e4469e8b33c",
+              "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/096a94d2-f96c-4e9d-b436-d4674a07f9f7/annotation/cb52515c-cdee-45a7-ac87-35a711802bf0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -186,10 +180,10 @@
                   }
                 ]
               },
-              "target": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767#xywh=-23,-232,723,747"
+              "target": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/096a94d2-f96c-4e9d-b436-d4674a07f9f7#xywh=-200,-216,731,754"
             },
             {
-              "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767/annotation/0d06fb42-0992-451a-bc8a-834ff1f43a2a",
+              "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/096a94d2-f96c-4e9d-b436-d4674a07f9f7/annotation/05fc66ba-d08e-4a76-8bc1-291eab50a9d0",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -206,11 +200,29 @@
                   }
                 ]
               },
-              "target": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/1cba78b4-c3c3-4c3a-92f5-b990abe88767#xywh=553,764,746,770"
+              "target": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/096a94d2-f96c-4e9d-b436-d4674a07f9f7#xywh=715,664,746,770"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001/canvas/54108e29-930d-44a0-a715-f7131d5dd67c",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Image 3_3_a"
+        ]
+      },
+      "width": 1255,
+      "height": 1295,
+      "service": {
+        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+        "profile": "http://iiif.io/api/annex/services/physdim",
+        "physicalScale": 0.0398406374501992,
+        "physicalUnits": "cm"
+      },
+      "items": []
     },
     {
       "id": "https://byabbe.se/codicum-static-iiif-playground/canvas/5_5",
@@ -249,7 +261,13 @@
             }
           ]
         }
-      ]
+      ],
+      "service": {
+        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+        "profile": "http://iiif.io/api/annex/services/physdim",
+        "physicalScale": 0.022171985815602837,
+        "physicalUnits": "cm"
+      }
     }
   ]
 }
