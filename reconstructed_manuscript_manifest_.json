@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "https://iiif-workbench-v2.rainersimon.io/manifest/0001",
+  "id": "https://byabbe.se/codicum-static-iiif-playground/reconstructed_manuscript_manifest_.json",
   "label": {
     "en": [
       "Reconstructed Manuscript"
